@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-dados = pd.read_csv('C:\Users\nillf\OneDrive\Desktop\squad 2\Aula-de-Python-2024\dados_ficticios.csv')
+dados = pd.read_csv('dados_ficticios.csv')
 
 
 df = pd.DataFrame(dados)
