@@ -1,0 +1,8 @@
+{
+    "id": 444,
+    "username": "da-motafernando",
+    "email": "mourasabrina@example.net",
+    "phone": "+55 87 91134-9496",
+    "address": "Vila de Vasconcelos, 910\nGuarat\u00e3\n84501293 Alves / TO",
+    "cpf": "065.732.984-38"
+}
