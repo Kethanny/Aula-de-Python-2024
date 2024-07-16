@@ -5,8 +5,6 @@ import time
 
 browser = Firefox()
 
-link = "https://google.com"
+link = "https://www.jogajuntoinstituto.org/"
 
 browser.get(link)
-
-btn_add_element = browser.find_element(By.NAME, "q")
