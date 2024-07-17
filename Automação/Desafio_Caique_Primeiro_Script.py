@@ -30,7 +30,7 @@ title = browser.title
 assert 'Instituto Joga Junto' in title, "Página incorreta na busca"
 
 input_nome = browser.find_element(By.ID, "nome")
-input_nome.send_keys('Kéthhanny Nayane Santa Rosa Coelho')
+input_nome.send_keys('Kéthanny Nayane Santa Rosa Coelho')
 
 input_email = browser.find_element(By.ID, "email")
 input_email.send_keys('kethynayane816@gmail.com')
@@ -40,11 +40,10 @@ select = Select(input_assunto)
 select.select_by_index(5)
 
 input_msg = browser.find_element(By.ID, "mensagem")
-input_msg.send_keys('Meu primeira automação - Squad VAKR')
+input_msg.send_keys('Minha primeira automação - Squad VAKR')
 
 button_enviar = browser.find_element(By.XPATH, "//button[@type='submit']")
-
-button_enviar.click()
+button_enviar.submit()
 
 time.sleep(40)
 
