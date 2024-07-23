@@ -46,4 +46,4 @@ input_preço.send_keys('14,00')
 input_preço.send_keys(Keys.ENTER)
 
 
-#browser.quit()
+browser.quit()
